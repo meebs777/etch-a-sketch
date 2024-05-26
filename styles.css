@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
-    
+    margin-top: 50px;
 }
 
 .square {
