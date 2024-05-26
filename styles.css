@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square {
+    box-sizing: border-box;
+    height: auto;
+    width: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 0;
+    flex: auto;
+}
+
+.blacksquare {
+    background-color: black;
+}
